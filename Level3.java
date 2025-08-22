@@ -72,6 +72,8 @@ public class Level3 extends World
         SmallPlatform splatform7 = new SmallPlatform();
         SmallPlatform splatform8 = new SmallPlatform();
         SmallPlatform splatform9 = new SmallPlatform();
+        /* platform 10 is the third to last platform on the right side 
+        when you hit it, the question is triggered*/
         QuestionPlatform qplatform10 = new QuestionPlatform();
         SmallPlatform splatform11 = new SmallPlatform();
         SmallPlatform splatform12 = new SmallPlatform();
