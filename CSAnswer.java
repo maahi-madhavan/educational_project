@@ -13,8 +13,8 @@ public class CSAnswer extends Actor
 
     public void act() {
         String key = Greenfoot.getKey();  
-        if (key != null) { 
-            if (key.equals("d")) {
+        if (key != null) { //when user presses a key
+            if (key.equals("d")) { //correct answer
                 response = "Correct! Let's move on!";
                 Level4 level4 = new Level4();
                 Greenfoot.setWorld(level4);
