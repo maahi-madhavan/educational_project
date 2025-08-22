@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.target=Enemy
+comment0.text=\n\ The\ enemy\ class\ is\ used\ to\ classifiy\ objects\ as\ enemies,\ allowing\ all\ of\ them\ to\ damage\ the\ player.\n\ \n\ @author\ Marcus\ Jones\ Jr.\n\ @version\ 1.0\n
+numComments=1

@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=FrenchText
+comment0.text=\n\ Write\ a\ description\ of\ class\ FrenchText\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=text
+comment1.target=FrenchText(java.lang.String)
+numComments=2

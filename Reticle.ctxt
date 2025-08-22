@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Reticle
+comment0.text=\n\ Object\ that\ will\ follow\ the\ player's\ mouse\ to\ help\ them\ aim.\n\ \n\ @author\ Marcus\ Jones\ Jr.\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Act\ -\ do\ whatever\ the\ Reticle\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment2.params=
+comment2.target=void\ trackMouse()
+comment2.text=\n\ This\ method\ allows\ the\ reticle\ to\ follow\ the\ mouse.\n
+comment3.params=
+comment3.target=void\ activate()
+comment3.text=\n\ This\ method\ sets\ the\ gunHeld\ boolean\ to\ true.\n
+numComments=4

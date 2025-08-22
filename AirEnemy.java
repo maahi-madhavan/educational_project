@@ -17,8 +17,10 @@ public class AirEnemy extends Enemy
      * Constructor for the AirEnemy class
      */
     public AirEnemy(){
-        image1 = new GreenfootImage("demonsidefaceleft.png");
-        image2 = new GreenfootImage("demonsidefaceright.png");
+        image1 = new GreenfootImage("squirrel.png");
+        image1.scale(30, 30);
+        image2 = new GreenfootImage("squirrel.png");
+        image2.scale(30, 30);
     }
 
     /**

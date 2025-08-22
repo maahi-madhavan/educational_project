@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Projectile
+comment0.text=\n\ A\ projectile\ that\ travels\ in\ an\ arc\ and\ damages\ the\ player.\n\ \n\ @author\ Marcus\ Jones\ Jr.\ \n\ @version\ 1.0\n
+comment1.params=movingRight\ lowArc
+comment1.target=Projectile(boolean,\ boolean)
+comment1.text=\n\ This\ constructor\ for\ the\ Projectile\ class\ requires\ the\ boolean\ movingRight\ to\ detirme\ the\ direction\ of\ the\n\ ground\ enemy\ who\ created\ the\ projectile\ and\ the\ boolean\ low\ arc\ that\ will\ determine\ how\ high\ of\ an\ arc\n\ the\ projectile\ is\ fired\ at.\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Act\ -\ do\ whatever\ the\ projectile\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment3.params=
+comment3.target=void\ projectileArc()
+comment3.text=\n\ This\ method\ determines\ what\ arc\ the\ projectile\ will\ travel\ in.\ If\ the\ projectile\ was\ fired\ by\ a\n\ normal\ ground\ enemy\ the\ arc\ will\ be\ higher\ than\ if\ it\ were\ fired\ by\ a\ alternate\ ground\ enemy.\n
+comment4.params=
+comment4.target=void\ removeProjectile()
+comment4.text=\n\ This\ method\ will\ teleport\ to\ 0,0\ if\ the\ projectile\ has\ hit\ the\ edge\ of\ the\ world\ or\ is\ touching\ a\ platform.\n\ Once\ the\ projectile\ is\ teleported\ to\ 0,0\ another\ object\ will\ remove\ it\ from\ the\ world.\n
+comment5.params=
+comment5.target=void\ firingDirection()
+comment5.text=\n\ This\ method\ using\ the\ movement\ direction\ of\ the\ ground\ enemy\ that\ created\ the\ projectile\ to\ \n\ determine\ what\ direction\ the\ projecile\ will\ move.\ \n\ \n
+comment6.params=
+comment6.target=void\ jump()
+comment6.text=\n\ This\ jump\ method\ is\ borrowed\ from\ the\ Mover\ class.\ \n
+numComments=7

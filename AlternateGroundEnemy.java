@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author Marcus Jones Jr. 
  * @version 1.0
  */
-public class AlternateGroundEnemy extends GroundEnemy
+public class AlternateGroundEnemy extends GroundEnemyL1
 {
     /**
      * This method creates a new Projectile object. 

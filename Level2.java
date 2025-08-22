@@ -108,7 +108,7 @@ public class Level2 extends World
         Medkit medkit1 = new Medkit();
         addObject(medkit1, 664, 320);
 
-        GroundEnemy genemy1 = new GroundEnemy(); 
+        GroundEnemyL1 genemy1 = new GroundEnemyL1(); 
         addObject(genemy1, 991,184);
         addObject(counter1, 991, 184);
 
@@ -129,11 +129,11 @@ public class Level2 extends World
     }
 
     /**
-     * Changes the current world to the English level.
+     * Changes the current world to the Level3 world.
      */
     public void nextLevel(){
-        Englishlevel EngLevel = new Englishlevel();
-        Greenfoot.setWorld(EngLevel);
+        Level3 level3 = new Level3();
+        Greenfoot.setWorld(level3);
     }
 
     /**

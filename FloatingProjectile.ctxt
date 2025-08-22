@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=FloatingProjectile
+comment0.text=\n\ The\ projectile\ fired\ by\ the\ air\ enemy\ class.\n\ \n\ @author\ Marcus\ Jones\ Jr.\n\ @version\ 1.0\n
+comment1.params=facingRight
+comment1.target=FloatingProjectile(boolean)
+comment1.text=\n\ This\ is\ the\ constructor\ for\ the\ FloatingProjectile\ class\ and\ it\ requires\ a\ boolean\ facing\ right\n\ so\ the\ projectile\ knows\ which\ direction\ to\ fire.\ this\ boolean\ is\ taken\ from\ the\ air\ enemy\ that\n\ spawns\ it.\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Act\ -\ do\ whatever\ the\ projectile\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment3.params=
+comment3.target=void\ firingDirection()
+comment3.text=\n\ This\ method\ allows\ the\ projectile\ to\ travel\ in\ whatever\ direction\ the\ air\ enemy\ is\ facing\n
+comment4.params=
+comment4.target=void\ removeFloatingProjectile()
+comment4.text=\n\ This\ method\ will\ teleport\ the\ projectile\ to\ 0,0\ after\ a\ variety\ of\ situations.\ Once\ the\n\ projectile\ is\ teleported\ to\ 0,0\ it\ is\ removed\ by\ another\ object.\n
+numComments=5

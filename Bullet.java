@@ -55,7 +55,6 @@ public class Bullet extends Actor
         if(isTouching(Platform.class)){
             setLocation(0,0);
         }
-
         if(isTouching(Enemy.class)){
             removeTouching(Enemy.class);
             setLocation(0,0);

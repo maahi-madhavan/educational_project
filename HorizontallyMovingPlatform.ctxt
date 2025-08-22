@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=HorizontallyMovingPlatform
+comment0.text=\n\ A\ platform\ that\ moves\ horizontally\ across\ the\ screen\ when\ touched\ by\ the\ player.\n\ \n\ @author\ Marcus\ Jones\ Jr.\n\ @version\ 1.0\n
+comment1.params=speed
+comment1.target=HorizontallyMovingPlatform(int)
+comment1.text=\n\ This\ is\ the\ constructor\ for\ the\ HorizontallyMovingPlatform\ class\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Act\ -\ do\ whatever\ the\ HorizontallyMovingPlatform\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment3.params=
+comment3.target=void\ checkPlayerAbove()
+comment3.text=\n\ This\ method\ checks\ to\ see\ if\ the\ player\ is\ standing\ above\ the\ HorizontallyMovingPlatform.\n
+comment4.params=
+comment4.target=void\ movement()
+comment4.text=\n\ This\ method\ will\ move\ the\ HorizontallyMovingPlatform\ after\ a\ player\ has\ been\ detecting\ standing\ above\ it.\n
+comment5.params=
+comment5.target=void\ activate()
+comment5.text=\n\ This\ method\ sets\ the\ boolean\ moving\ to\ true.\n
+numComments=6

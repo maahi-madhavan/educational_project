@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=EnemyCounter
+comment0.text=\n\ A\ class\ that\ keeps\ track\ of\ how\ many\ enemies\ are\ in\ a\ given\ level.\n\ \n\ @author\ Marcus\ Jones\ Jr.\ \n\ @version\ 1.0\n
+comment1.params=enemyNumber\ mainCounter\ level
+comment1.target=EnemyCounter(int,\ boolean,\ int)
+comment1.text=\n\ This\ is\ the\ constructor\ for\ the\ enemy\ counter\ class.\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Act\ -\ do\ whatever\ the\ EnemyCounter\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment3.params=
+comment3.target=void\ setMainCounterImage()
+comment3.text=\n\ Changes\ the\ image\ of\ the\ main\ counter\ to\ display\ the\ current\ number\ of\n\ enemies\ remaining\ in\ the\ level.\n
+comment4.params=
+comment4.target=void\ lowerEnemyCount()
+comment4.text=\n\ This\ method\ will\ lower\ the\ number\ of\ enemys\ on\ the\ main\ enemy\ counter\ \n\ by\ one\ when\ a\ non\ main\ enemycounter\ is\ no\ longer\ following\ an\ enemy.\n
+comment5.params=
+comment5.target=void\ followEnemy()
+comment5.text=\n\ This\ method\ allows\ the\ non\ main\ counters\ to\ follow\ the\ enemies\ they\ \n\ are\ attached\ to.\n
+comment6.params=
+comment6.target=void\ enemiesEliminated()
+comment6.text=\n\ This\ method\ will\ run\ the\ level\ clear\ method\ once\ after\ all\ enemies\ have\n\ been\ eliminated.\n
+comment7.params=
+comment7.target=void\ levelClear()
+comment7.text=\n\ This\ method\ will\ make\ something\ happen\ in\ the\ world\ when\ enemys\ are\ killed\n
+numComments=8

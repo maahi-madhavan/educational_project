@@ -1,0 +1,92 @@
+Main Functionality:
+Game with at least 1 level
+Create original sprite for player character.
+Consumable items like medkits.
+Basic enemys that hurt to touch.
+Health points for player character and enemys.
+
+Advanced Functionality:
+Sprint that gradually builds up speed.
+Terminal velocity for fall.
+Game with 4 levels
+Title screen
+Game over screen.
+Jump height that changes based on how long the jump button is pressed.
+A.I. that will fight the player with projectiles.
+Weapons that are aimed with the mouse button.
+Wall jumps/climbing.
+Boss fight on last level.
+two screens per level.
+basic sound effects for major events (like taking damage).
+
+Extra Functionality:
+Good original sprites for everything.
+Animation.
+Hanging on the edge of platforms.
+boss fight with cutscene and health bar.
+Grappling hook.
+2 screens per level.
+basic sound effects for minor events (landing on a platform.)
+Some compressed voice clips.
+
+Class Structure
+World
+	TitleScreen
+	Level 1-1
+	Level 1-2
+	Level 2-1
+	Level 2-2
+	Level 3-1
+	Level 3-2
+	Level 4-1
+	Level 4-2
+	
+Actor
+	Platform
+		SolidPlatform
+		TrasparentPlatform
+	
+	Mover
+		Player
+		WalkingEnemy
+		FlyingEnemy
+		
+
+Story:
+In the sewers underneath ####### unidentified organisms began to grow. At first they were just
+being researched but they began to grow rapidly and became violent.
+At some point to military took action in an attempt to rid the sewers of these violent creatures.
+Sometime during this operation a large spontaneous growth occured which turned the sewer system into
+something unrecognizable. Walls of flesh transformed the sewer into something more akin to a cave or maze.
+A man is contracted by a family to confirm the status of a 21 year old male who was recently labeled MIA.
+
+
+
+THINGS TO ADD!
+winScreen
+Ai peter voice at the end
+sound effects
+fix level swap
+animation
+
+
+focus on adding basic platforming then add additional movement abilites
+create a new gun
+add a boss fight
+work on sprites
+
+Stop gun and reticle from moving until gun is picked up by the player
+
+Credits
+https://opengameart.org/content/hero-character-sprite-sheet
+https://opengameart.org/content/beating-heart-0
+https://opengameart.org/content/low-poly-medkit-3
+https://opengameart.org/content/icy-demon-animated-classic-hero-edit
+https://opengameart.org/content/rope-ladder
+https://opengameart.org/content/bullet-collection-2-m484-games
+https://opengameart.org/content/3-rpg-enemy-remixes
+https://opengameart.org/content/colt-1851-navy
+https://opengameart.org/content/microgame-pixelgraphicsda
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fthenerdstash.com%2Fhow-to-get-use-society-medallions%2F&psig=AOvVaw2snO3oq-VLJyzblfo4KLJb&ust=1703079999544000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCLjH28fRm4MDFQAAAAAdAAAAABAD
+https://tuna.voicemod.net/sound/66a16121-f874-4b47-b405-571c02a2adf1
+https://opengameart.org/content/mountain-at-dusk-background

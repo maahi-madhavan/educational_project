@@ -111,22 +111,22 @@ public class Gun extends Actor
     public void activateReticle(){
         if(!reticleActivated){
             reticleActivated = true;
-            /*if(level == 1){
+            if(level == 1){
                 Level1 myLevel1 = (Level1)getWorld();
                 myLevel1.activateReticle();
-            }*/
+            }
             if(level == 2){
                 Level2 myLevel2 = (Level2)getWorld();
                 myLevel2.activateReticle();
             }
-            /*if(level == 3){
+            if(level == 3){
                 Level3 myLevel3 = (Level3)getWorld();
                 myLevel3.activateReticle();
             }
             if(level == 4){
                 Level4 myLevel4 = (Level4)getWorld();
                 myLevel4.activateReticle();
-            }*/
+            }
         }
     }
 }

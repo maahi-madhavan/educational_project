@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=AirEnemy
+comment0.text=\n\ An\ enemy\ that\ will\ fly\ up\ and\ down\ whle\ shooting\ projectiles.\ \n\ \n\ @author\ Marcus\ Jones\ Jr.\ \n\ @version\ 1.0\n
+comment1.params=
+comment1.target=AirEnemy()
+comment1.text=\n\ Constructor\ for\ the\ AirEnemy\ class\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Act\ -\ do\ whatever\ the\ AirEnemy\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment3.params=
+comment3.target=void\ direction()
+comment3.text=\n\ This\ method\ allows\ the\ air\ enemy\ to\ face\ left\ or\ right\ depending\ on\ where\ they\ are.\n
+comment4.params=
+comment4.target=void\ shotTimer()
+comment4.text=\n\ This\ method\ will\ make\ the\ air\ enemy\ shoot\ at\ specific\ points\ in\ the\ air.\n
+comment5.params=
+comment5.target=void\ movement()
+comment5.text=\n\ This\ method\ allows\ the\ air\ enemy\ to\ move\ up\ and\ down.\n
+comment6.params=
+comment6.target=void\ shoot()
+comment6.text=\n\ This\ method\ creates\ a\ floating\ projectile\n
+numComments=7
