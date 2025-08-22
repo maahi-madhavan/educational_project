@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=French
+comment0.text=\n\ Write\ a\ description\ of\ class\ French\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=french\ correct\ incorrect
+comment1.target=void\ Question(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=void\ act()
+numComments=3

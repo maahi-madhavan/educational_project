@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=MenuButton
+comment0.text=\n\ Sets\ images\ to\ be\ used\ as\ buttons\ and\ icons\ used\ in\ the\ menus.\n\ \n\ @author\ Marcus\ Jones\ Jr.\ \n\ @version\ 1.0\n
+comment1.params=imageName
+comment1.target=MenuButton(java.lang.String)
+comment1.text=\n\ The\ constructor\ for\ the\ MenuButton\ class.\n
+numComments=2

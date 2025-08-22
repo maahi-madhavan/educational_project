@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Gun
+comment0.text=\n\ The\ weapon\ used\ by\ the\ player.\ Spawns\ Bullets\ when\ fired\ and\ aimed\ with\ the\ mouse.\n\ \n\ @author\ Marcus\ Jones\ Jr.\n\ @version\ 1.0\n
+comment1.params=level
+comment1.target=Gun(int)
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Act\ -\ do\ whatever\ the\ Gun\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment3.params=
+comment3.target=void\ changeImage()
+comment3.text=\n\ This\ method\ changes\ the\ gun's\ image\ depending\ on\ the\ direction\ it's\ facing.\n
+comment4.params=
+comment4.target=void\ grabGun()
+comment4.text=\n\ This\ method\ sets\ the\ boolean\ gunHeld\ to\ treu\ once\ the\ player\ touches\ \n\ the\ gun,\ allowing\ the\ gun\ to\ be\ aimed\ and\ fired.\n
+comment5.params=
+comment5.target=void\ holdGun()
+comment5.text=\n\ Keeps\ the\ gun\ by\ the\ players\ hands\ once\ it\ is\ near\ the\ player.\n\ The\ code\ written\ in\ this\ method\ was\ partially\ written\ using\ the\ two\ links\ below.\n\ https\://www.greenfoot.org/topics/2799\n\ https\://runestone.academy/ns/books/published/apcsareview/ListBasics/listMethods.html\#\:~\:text\=You%20can%20get%20the%20object,set(index%2Cobj)%20.\n
+comment6.params=
+comment6.target=void\ aim()
+comment6.text=\n\ This\ method\ allows\ the\ gun\ to\ turn\ towards\ where\ ever\ the\ mouse\ is.\n
+comment7.params=
+comment7.target=void\ shoot()
+comment7.text=\n\ This\ method\ allows\ the\ gun\ to\ great\ a\ bullet\ every\ time\ the\ mouse\ is\ clicked\n
+comment8.params=
+comment8.target=void\ activateReticle()
+comment8.text=\n\ Calls\ upon\ the\ activateReticle\ method\ to\ allow\ the\ reticle\ to\ begin\n\ tracking\ the\ mouse.\n
+numComments=9

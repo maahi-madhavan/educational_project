@@ -51,22 +51,22 @@ public class Death extends World
      */
     public void retry(){
         if(Greenfoot.mouseClicked(retry)){
-            /*if(level == 1){
+            if(level == 1){
                 Level1 level1 = new Level1();
                 Greenfoot.setWorld(level1);
-            }*/
+            }
             if(level == 2){
                 Level2 level2 = new Level2();
                 Greenfoot.setWorld(level2);
             }
-            /*if(level == 3){
+            if(level == 3){
                 Level3 level3 = new Level3();
                 Greenfoot.setWorld(level3);
             }
             if(level == 4){
                 Level4 level4 = new Level4();
                 Greenfoot.setWorld(level4);
-            }*/
+            }
         }
     }
 }

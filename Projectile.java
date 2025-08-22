@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author Marcus Jones Jr. 
  * @version 1.0
  */
-public class Projectile extends GroundEnemy
+public class Projectile extends GroundEnemyL1
 {
     private int timer = 0;
     private int rotation;

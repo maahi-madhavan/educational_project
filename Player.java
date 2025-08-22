@@ -20,7 +20,6 @@ public class Player extends Mover
     private int animCounterRight = 0;
     private int animCounterLeft = 0;
     private int level = 0;
-    private int count = 0;
     private GreenfootImage image1;
     private GreenfootImage image2;
     private GreenfootImage image3;
@@ -182,22 +181,22 @@ public class Player extends Mover
         if(hitTimer > 200){
             hitPoints--;
             hitTimer = 0;
-            /*if(level == 1){
+            if(level == 1){
                 Level1 myLevel1 = (Level1)getWorld();
                 myLevel1.lowerHp();
-            }*/
+            }
             if(level == 2){
                 Level2 myLevel2 = (Level2)getWorld();
                 myLevel2.lowerHp();
             }
-            /*if(level == 3){
+            if(level == 3){
                 Level3 myLevel3 = (Level3)getWorld();
                 myLevel3.lowerHp();
             }
             if(level == 4){
                 Level4 myLevel4 = (Level4)getWorld();
                 myLevel4.lowerHp();
-            }*/
+            }
         }
     }
     }
@@ -214,22 +213,22 @@ public class Player extends Mover
      */
     public void die(){
         if (hitPoints == 0){
-            /*if(level == 1){
+            if(level == 1){
                 Level1 myLevel1 = (Level1)getWorld();
                 myLevel1.dead();
-            }*/
+            }
             if(level == 2){
                 Level2 myLevel2 = (Level2)getWorld();
                 myLevel2.dead();
             }
-            /*if(level == 3){
+            if(level == 3){
                 Level3 myLevel3 = (Level3)getWorld();
                 myLevel3.dead();
             }
             if(level == 4){
                 Level4 myLevel4 = (Level4)getWorld();
                 myLevel4.dead();
-            }*/
+            }
         }
     }
 
@@ -289,23 +288,22 @@ public class Player extends Mover
      */
     public void goal(){
         if(isTouching(Goal.class)){
-            /*if(level == 1){
+            if(level == 1){
                 Level1 myLevel1 = (Level1)getWorld();
                 myLevel1.nextLevel();
-            }*/
+            }
             if(level == 2){
-                count++;
                 Level2 myLevel2 = (Level2)getWorld();
                 myLevel2.nextLevel();
             }
-            /*if(level == 3){
+            if(level == 3){
                 Level3 myLevel3 = (Level3)getWorld();
                 myLevel3.nextLevel();
             }
             if(level == 4){
                 Level4 myLevel4 = (Level4)getWorld();
                 myLevel4.nextLevel();
-            }*/
+            }
         }
     }
 
@@ -325,24 +323,25 @@ public class Player extends Mover
         if(isTouching(Medkit.class)){
             removeTouching(Medkit.class);
             hitPoints = 2;
-            /*if(level == 1){
+            if(level == 1){
                 Level1 myLevel1 = (Level1)getWorld();
                 myLevel1.restoreHp();
-            }*/
+            }
             if(level == 2){
                 Level2 myLevel2 = (Level2)getWorld();
                 myLevel2.restoreHp();
             }
-            /*if(level == 3){
+            if(level == 3){
                 Level3 myLevel3 = (Level3)getWorld();
                 myLevel3.restoreHp();
             }
             if(level == 4){
                 Level4 myLevel4 = (Level4)getWorld();
                 myLevel4.restoreHp();
-            }*/
+            }
         }
     }
+
     /**
      * This method allows the player to jump.
      */
@@ -355,6 +354,7 @@ public class Player extends Mover
             timer = 0;
         }
     }
+
     /**
      * This method allows the player to gain a speed boost when pressing the shift key.
      */

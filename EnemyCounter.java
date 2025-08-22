@@ -79,21 +79,21 @@ public class EnemyCounter extends Actor
      * This method will make something happen in the world when enemys are killed
      */
     public void levelClear(){
-        /*if(level == 1){
+        if(level == 1){
             Level1 myLevel1 = (Level1)getWorld();
             myLevel1.levelClear();
-        } */
+        }
         if(level == 2){
             Level2 myLevel2 = (Level2)getWorld();
             myLevel2.levelClear();
         }
-        /*if(level == 3){
+        if(level == 3){
             Level3 myLevel3 = (Level3)getWorld();
             myLevel3.levelClear();
-        }*/
-        /*if(level == 4){
+        }
+        if(level == 4){
             Level4 myLevel4 = (Level4)getWorld();
             myLevel4.levelClear();
-        }*/
+        }
     }
 }

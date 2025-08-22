@@ -72,6 +72,8 @@ public class Level3 extends World
         SmallPlatform splatform7 = new SmallPlatform();
         SmallPlatform splatform8 = new SmallPlatform();
         SmallPlatform splatform9 = new SmallPlatform();
+        SmallPlatform splatform10 = new SmallPlatform();
+
         /* platform 10 is the third to last platform on the right side 
         when you hit it, the question is triggered*/
         QuestionPlatform qplatform10 = new QuestionPlatform();
@@ -116,7 +118,9 @@ public class Level3 extends World
 
         Medkit medkit1 = new Medkit();
 
-        GroundEnemy enemy1 = new GroundEnemy();
+        GroundEnemyL1 enemy1 = new GroundEnemyL1();
+
+        GroundEnemy enemy2 = new GroundEnemy();
         addObject(enemy1,682, 165);
         addObject(counter1,682, 165);
 
@@ -148,10 +152,9 @@ public class Level3 extends World
         addObject(wall8,686,360);
         addObject(wall9,686,510);
         
-        Goal Goal = new Goal();
-        addObject(Goal, 961, 94);
-
-    
+        Goal goal = new Goal();
+        addObject(goal, 961, 94);
+        
         Arrow arrow = new Arrow();
         addObject(arrow,899,233);
 

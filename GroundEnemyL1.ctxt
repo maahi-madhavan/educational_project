@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=GroundEnemyL1
+comment0.text=\n\ An\ enemy\ that\ moves\ left\ and\ right\ on\ a\ platform\ and\ launches\ projectiles\ that\ travel\ in\ an\ arc.\n\ \n\ @author\ Marcus\ Jones\ Jr.\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=GroundEnemyL1()
+comment1.text=\n\ This\ is\ the\ constructor\ for\ the\ GroundEnemy\ Class.\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Act\ -\ do\ whatever\ the\ GroundEnemy\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment3.params=
+comment3.target=void\ checkTurn()
+comment3.text=\n\ This\ method\ checks\ if\ the\ ground\ enemy\ should\ turn\ around.\n
+comment4.params=
+comment4.target=void\ turn()
+comment4.text=\n\ This\ method\ runs\ the\ shoot\ method\ while\ switching\ the\ image\ and\ movement\ direction\ of\ the\ enemy.\n
+comment5.params=
+comment5.target=void\ move()
+comment5.text=\n\ This\ method\ overrides\ greenfoot's\ move\ method\ and\ allows\ the\ actor\ to\ \n\ move\ left\ or\ right\ based\ on\ the\ value\ of\ the\ boolean\ movingRight.\n
+comment6.params=
+comment6.target=void\ shot_timer()
+comment7.params=
+comment7.target=void\ shoot()
+comment7.text=\n\ This\ method\ creates\ a\ new\ Projectile\ object.\ \n
+numComments=8
