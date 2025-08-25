@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Wall
+comment0.text=\r\n\ A\ vertical\ wall\ that\ the\ player\ cannot\ pass.\r\n\ \r\n\ @author\ (Marcus\ Jones\ Jr.\ \r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=Wall()
+comment1.text=\r\n\ This\ is\ the\ constructor\ for\ the\ Wall\ class.\r\n
+numComments=2

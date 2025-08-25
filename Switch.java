@@ -28,8 +28,8 @@ public class Switch extends Actor
         if(isTouching(Bullet.class)){
             removeTouching(Bullet.class);
             setImage(image2);
-            /*Level4 myLevel4 = (Level4)getWorld();
-            myLevel4.spawnPlatform();*/
+            Level4 myLevel4 = (Level4)getWorld();
+            myLevel4.spawnPlatform();
         }
     }
 }

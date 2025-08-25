@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=VerticalMovingPlatform
+comment0.text=\n\ A\ platform\ that\ will\ move\ up\ and\ down\ vertically\ once\ activated.\n\ \n\ @author\ Marcus\ Jones\ Jr.\ \n\ @version\ 1.0\n
+comment1.params=distance
+comment1.target=VerticalMovingPlatform(int)
+comment1.text=\n\ This\ is\ the\ constructor\ for\ the\ VerticalMovingPlatform\ class.\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Act\ -\ do\ whatever\ the\ TEST\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment3.params=
+comment3.target=void\ movement()
+comment3.text=\n\ This\ method\ allows\ the\ platform\ to\ move\ up\ and\ down.\n
+comment4.params=
+comment4.target=void\ activate()
+comment4.text=\n\ This\ method\ sets\ the\ boolean\ moving\ to\ true\ whichs\ begins\ the\ movement\ method.\n
+numComments=5

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=TutorialText
+comment0.text=\n\ Displays\ text\ in\ the\ world.\n\ \n\ @author\ Marcus\ Jones\ Jr.\n\ @version\ 1.0\n
+comment1.params=text
+comment1.target=TutorialText(java.lang.String)
+comment1.text=\n\ This\ constructor\ will\ \ allow\ for\ the\ display\ of\ any\ string\ that\ is\ given\ as\ the\ parameter.\n
+numComments=2

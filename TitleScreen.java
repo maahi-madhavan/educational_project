@@ -41,10 +41,8 @@ public class TitleScreen extends World
      */
     public void startGame(){
         if(Greenfoot.mouseClicked(start)){
-            /*
             Level1 level1 = new Level1();
             Greenfoot.setWorld(level1);
-            */
         }
     }
 
